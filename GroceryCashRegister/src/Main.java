@@ -7,13 +7,13 @@ public class Main {
         Scanner scan = new Scanner (System.in);
         System.out.print ("Please enter amount of pear as kilograms : ");
         double pearAmount = scan.nextDouble ();
-        System.out.print ("Please enter amount of pear as kilograms : ");
+        System.out.print ("Please enter amount of apple as kilograms : ");
         double appleAmount = scan.nextDouble ();
-        System.out.print ("Please enter amount of pear as kilograms : ");
+        System.out.print ("Please enter amount of tomatoes as kilograms : ");
         double tomatoesAmount = scan.nextDouble ();
-        System.out.print ("Please enter amount of pear as kilograms : ");
+        System.out.print ("Please enter amount of banana as kilograms : ");
         double bananaAmount = scan.nextDouble ();
-        System.out.print ("Please enter amount of pear as kilograms : ");
+        System.out.print ("Please enter amount of eggplant as kilograms : ");
         double eggplantAmount = scan.nextDouble ();
         double total =
                         pear * pearAmount +
