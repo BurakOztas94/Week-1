@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EvenNumberFinder.iml" filepath="$PROJECT_DIR$/EvenNumberFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AverageOfSumOfNumbersDivisibleBy12Program.iml" filepath="$PROJECT_DIR$/AverageOfSumOfNumbersDivisibleBy12Program.iml" />
     </modules>
   </component>
 </project>
