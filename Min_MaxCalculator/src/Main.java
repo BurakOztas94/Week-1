@@ -3,32 +3,36 @@ import java.util.Scanner;
 public class Main{
     public static void main ( String[] args )
         {
+
             Scanner scan=new Scanner ( System.in );
-            System.out.print ("How many number are you entering? : ");
+            System.out.print ("How many number are you entering  : ");
             int n=scan.nextInt ();
 
-            int i=1;
-            while (n!=0){
-
-                System.out.print (i+". number = ");
-                int number=scan.nextInt ();
-
-                for(int j =0;j<number;j++){
-                    if(j<number){
-                        System.out.println (j +" is maximum number");
-                    }else if(j>number){
-                        System.out.println (j+" is minimum number");
-                    }else {
-                        System.out.println ("All of the numbers are equal ");
-                    }
+            if(n<0){
+                System.out.println ("Wrong input");
+            }else{
 
 
-                }
 
-                n--;
-                i++;
+            //Update needed code next time
+            int min=0;
+            int max=0;
+            int number;
+
+            for(int i = 1; i<=n;i++){
+                System.out.print ("Enter number " +i+". = ");
+                number=scan.nextInt ();
+                if(number<min||min==0){
+                    min=number;
+
+                }if(number>max){
+                    max=number;
 
             }
+            }
 
-        }
+            System.out.println ("Max number is = " +max);
+            System.out.println ("Min number is = " +min);
+
+        } }
 }
